@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		633D4C8E199A99FF00FAB841 /* Tasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D4C8D199A99FF00FAB841 /* Tasks.m */; };
+		633F668E19A09E3A00A2FAFA /* iOS Simulator Screen shot Aug 17, 2014, 11.23.39.png in Resources */ = {isa = PBXBuildFile; fileRef = 633F668D19A09E3A00A2FAFA /* iOS Simulator Screen shot Aug 17, 2014, 11.23.39.png */; };
+		633F669019A09F6600A2FAFA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 633F668F19A09F6600A2FAFA /* icon.png */; };
 		63C39356199940BF006DD3EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C39355199940BF006DD3EE /* Foundation.framework */; };
 		63C39358199940BF006DD3EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C39357199940BF006DD3EE /* CoreGraphics.framework */; };
 		63C3935A199940BF006DD3EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C39359199940BF006DD3EE /* UIKit.framework */; };
@@ -21,6 +24,9 @@
 		63C39377199940C0006DD3EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C39359199940BF006DD3EE /* UIKit.framework */; };
 		63C3937F199940C0006DD3EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63C3937D199940C0006DD3EE /* InfoPlist.strings */; };
 		63C39381199940C0006DD3EE /* Task_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C39380199940C0006DD3EE /* Task_AppTests.m */; };
+		63C3938C19994287006DD3EE /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C3938B19994287006DD3EE /* AddItemViewController.m */; };
+		63C3938F19994293006DD3EE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C3938E19994293006DD3EE /* DetailViewController.m */; };
+		63C393921999429C006DD3EE /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C393911999429C006DD3EE /* EditViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		633D4C8C199A99FF00FAB841 /* Tasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tasks.h; sourceTree = "<group>"; };
+		633D4C8D199A99FF00FAB841 /* Tasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tasks.m; sourceTree = "<group>"; };
+		633F668D19A09E3A00A2FAFA /* iOS Simulator Screen shot Aug 17, 2014, 11.23.39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen shot Aug 17, 2014, 11.23.39.png"; sourceTree = "<group>"; };
+		633F668F19A09F6600A2FAFA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		63C39352199940BF006DD3EE /* Task App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C39355199940BF006DD3EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63C39357199940BF006DD3EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +63,12 @@
 		63C3937C199940C0006DD3EE /* Task AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Task AppTests-Info.plist"; sourceTree = "<group>"; };
 		63C3937E199940C0006DD3EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63C39380199940C0006DD3EE /* Task_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task_AppTests.m; sourceTree = "<group>"; };
+		63C3938A19994287006DD3EE /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		63C3938B19994287006DD3EE /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+		63C3938D19994293006DD3EE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		63C3938E19994293006DD3EE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		63C393901999429C006DD3EE /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		63C393911999429C006DD3EE /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		633D4C8F199A9A0D00FAB841 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				633D4C8C199A99FF00FAB841 /* Tasks.h */,
+				633D4C8D199A99FF00FAB841 /* Tasks.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6340D5B7199DFB3200F9CEB8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				633F668F19A09F6600A2FAFA /* icon.png */,
+				633F668D19A09E3A00A2FAFA /* iOS Simulator Screen shot Aug 17, 2014, 11.23.39.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		63C39349199940BF006DD3EE = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +146,16 @@
 		63C3935B199940BF006DD3EE /* Task App */ = {
 			isa = PBXGroup;
 			children = (
-				63C39364199940BF006DD3EE /* AppDelegate.h */,
-				63C39365199940BF006DD3EE /* AppDelegate.m */,
 				63C39367199940BF006DD3EE /* Main.storyboard */,
 				63C3936A199940BF006DD3EE /* ViewController.h */,
 				63C3936B199940BF006DD3EE /* ViewController.m */,
+				63C3938A19994287006DD3EE /* AddItemViewController.h */,
+				63C3938B19994287006DD3EE /* AddItemViewController.m */,
+				63C3938D19994293006DD3EE /* DetailViewController.h */,
+				63C3938E19994293006DD3EE /* DetailViewController.m */,
+				63C393901999429C006DD3EE /* EditViewController.h */,
+				63C393911999429C006DD3EE /* EditViewController.m */,
+				633D4C8F199A9A0D00FAB841 /* Model */,
 				63C3936D199940BF006DD3EE /* Images.xcassets */,
 				63C3935C199940BF006DD3EE /* Supporting Files */,
 			);
@@ -126,6 +165,9 @@
 		63C3935C199940BF006DD3EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6340D5B7199DFB3200F9CEB8 /* images */,
+				63C39364199940BF006DD3EE /* AppDelegate.h */,
+				63C39365199940BF006DD3EE /* AppDelegate.m */,
 				63C3935D199940BF006DD3EE /* Task App-Info.plist */,
 				63C3935E199940BF006DD3EE /* InfoPlist.strings */,
 				63C39361199940BF006DD3EE /* main.m */,
@@ -162,6 +204,7 @@
 				63C3934E199940BF006DD3EE /* Sources */,
 				63C3934F199940BF006DD3EE /* Frameworks */,
 				63C39350199940BF006DD3EE /* Resources */,
+				50524F424C454D533F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -229,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				63C3936E199940BF006DD3EE /* Images.xcassets in Resources */,
+				633F669019A09F6600A2FAFA /* icon.png in Resources */,
+				633F668E19A09E3A00A2FAFA /* iOS Simulator Screen shot Aug 17, 2014, 11.23.39.png in Resources */,
 				63C39360199940BF006DD3EE /* InfoPlist.strings in Resources */,
 				63C39369199940BF006DD3EE /* Main.storyboard in Resources */,
 			);
@@ -244,14 +289,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50524F424C454D533F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63C3934E199940BF006DD3EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C3938F19994293006DD3EE /* DetailViewController.m in Sources */,
 				63C3936C199940BF006DD3EE /* ViewController.m in Sources */,
+				63C3938C19994287006DD3EE /* AddItemViewController.m in Sources */,
 				63C39366199940BF006DD3EE /* AppDelegate.m in Sources */,
+				63C393921999429C006DD3EE /* EditViewController.m in Sources */,
 				63C39362199940BF006DD3EE /* main.m in Sources */,
+				633D4C8E199A99FF00FAB841 /* Tasks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +382,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -355,7 +420,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -456,6 +521,7 @@
 				63C39386199940C0006DD3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63C39387199940C0006DD3EE /* Build configuration list for PBXNativeTarget "Task AppTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +530,7 @@
 				63C39389199940C0006DD3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
